@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "title": "MULTIVERSE PRO",
+    "tagline": "Explore the lives you could have lived… for absolutely no reason.",
+    "theme": "Dark Scientific Laboratory / Alternate Reality Quantum Computational Platform",
+    "archetype": "SWISS & HIGH-CONTRAST / RETRO-FUTURIST LAB",
+    "vibe": "Elegantly absurd, hyper-advanced, cinematic research laboratory software analyzing pointless human situations with maximum mathematical gravitas."
+  },
+  "persona_and_concept": {
+    "design_philosophy": "Fusion over Imitation: High-density CERN/NASA quantum computing control center merged with editorial serif typography and satirical uselessness.",
+    "core_contrast_joke": "SERIOUS QUANTUM COMPUTATIONAL UI + COMPLETELY TRIVIAL/USELESS PROBLEMS",
+    "visual_direction": "Deep dark navy/void canvas with cyan, laser blue, and electric purple glowing nodes, glassmorphism panels, circular telemetry meters, data streams, and delicate 1px grid borders. Absolute avoidance of generic hacker/cyberpunk slop."
+  },
+  "typography": {
+    "display_serif": {
+      "family": "'Playfair Display', 'Cormorant Garamond', 'Instrument Serif', Georgia, serif",
+      "usage": "Main headlines, Multiverse titles, dramatic report callouts, universe designations, and section hero titles.",
+      "styles": "font-serif tracking-tight font-medium drop-shadow-[0_2px_10px_rgba(34,211,238,0.2)]"
+    },
+    "body_sans": {
+      "family": "'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+      "usage": "UI copy, narrative observations, description cards, modal text, form inputs.",
+      "styles": "font-sans text-slate-300 leading-relaxed text-sm"
+    },
+    "data_monospace": {
+      "family": "'JetBrains Mono', 'Fira Code', 'Space Mono', Consolas, monospace",
+      "usage": "Subsystem codes, telemetry meters, timeline timestamps, universe statistics, reality integrity metrics, status indicators, and terminal logs.",
+      "styles": "font-mono uppercase tracking-wider text-xs font-semibold"
+    },
+    "hierarchy_rules": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-white tracking-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold text-cyan-100",
+      "h3_card": "text-lg sm:text-xl font-sans font-semibold text-slate-100",
+      "metric_label": "text-xs font-mono uppercase tracking-widest text-cyan-400/80",
+      "metric_value": "text-2xl sm:text-3xl font-mono font-bold text-white"
+    }
+  },
+  "colors": {
+    "background": {
+      "deep_space": "#070A12",
+      "canvas_navy": "#0B101D",
+      "card_surface": "rgba(15, 23, 42, 0.75)",
+      "card_surface_solid": "#0F172A",
+      "panel_border": "rgba(56, 189, 248, 0.2)",
+      "panel_border_active": "rgba(34, 211, 238, 0.6)"
+    },
+    "brand_highlights": {
+      "quantum_cyan": "#22D3EE",
+      "laser_blue": "#3B82F6",
+      "hyper_purple": "#A855F7",
+      "coherence_emerald": "#10B981",
+      "nonsense_amber": "#F59E0B",
+      "singularity_rose": "#F43F5E"
+    },
+    "text_contrast": {
+      "primary": "#F8FAFC",
+      "secondary": "#94A3B8",
+      "muted": "#64748B",
+      "accent_text": "#38BDF8"
+    },
+    "status_indicators": {
+      "online": "#10B981",
+      "calculating": "#3B82F6",
+      "anomaly": "#F59E0B",
+      "critical_uselessness": "#EF4444"
+    }
+  },
+  "layout_and_spacing": {
+    "structure": "Desktop Software Application feeling with sticky/fixed header bar, left/bottom interactive dock, and central flexible node graph / module viewport.",
+    "spacing_scale": "Generous interior padding (p-6 to p-8 on cards) with 12px-24px gap separation between dashboard widgets.",
+    "borders_and_glass": "glassmorphism: backdrop-blur-xl bg-slate-900/80 border border-cyan-500/20 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.6)]",
+    "grid_borders": "1px grid lines with subtle corner crosshairs (+) to accentuate high-precision laboratory visual aesthetic."
+  },
+  "subsystems_and_nodes": {
+    "multiverse_core": {
+      "id": "node-core",
+      "name": "MULTIVERSE CORE",
+      "role": "Central processing hub showing interactive canvas node-graph connecting all 7 modules.",
+      "live_metrics": ["Reality Integrity", "Causal Stability", "Logical Consistency", "Nonsense Levels"]
+    },
+    "multiverse_engine": {
+      "id": "node-engine",
+      "name": "Multiverse Decision Engine",
+      "description": "Processes trivial decisions (e.g. 'Should I eat leftover pizza?') to compute 3-5 alternate timelines with probabilities, butterfly effects, and universe numbers."
+    },
+    "brain_weather": {
+      "id": "node-weather",
+      "name": "Brain Weather Diagnostic",
+      "description": "Calculates mental atmospheric conditions (e.g. 'ACADEMIC THUNDERSTORM', 'PROCRASTINATION FOG') based on sleep, task overload, and phone checks."
+    },
+    "room_amnesia": {
+      "id": "node-amnesia",
+      "name": "Room Amnesia Engine",
+      "description": "Simulates stepping into a room and instantly forgetting why. Calculates Purpose Detection, Memory Stability, and feeds Confusion directly into Brain Weather."
+    },
+    "classroom_chaos": {
+      "id": "node-chaos",
+      "name": "Classroom Chaos Matrix",
+      "description": "Multi-select student dynamics to calculate live chaos, productivity loss, and teacher existential dread."
+    },
+    "time_machine": {
+      "id": "node-time",
+      "name": "Stupid Decision Time Machine",
+      "description": "Temporal scanning interface with countdowns allowing users to 'DO IT AGAIN', 'MAKE IT WORSE', or 'WARN PAST SELF (AND BE IGNORED)'."
+    },
+    "conversation_replay": {
+      "id": "node-replay",
+      "name": "Conversation Replay & Overthinker",
+      "description": "Inputs past awkward dialogue, measures awkwardness score, clarity %, and offers an infinite [OVERTHINK AGAIN] simulation loop."
+    },
+    "useless_statistics": {
+      "id": "node-stats",
+      "name": "Useless Statistics Engine",
+      "description": "Aggregates real-time ridiculously precise, zero-value data points calculated from all active user simulations."
+    },
+    "final_report": {
+      "id": "node-report",
+      "name": "Final Multiverse Dossier",
+      "description": "Cinematic full-screen summary with dramatic calculation animation concluding with 'Calculating Usefulness... 0.00%' reveal."
+    }
+  },
+  "audio_system": {
+    "ambient_hum": "Synthetic multi-oscillator low-frequency ambient drone synthesized via Web Audio API or audio generator.",
+    "ui_beeps": "Subtle high-frequency sine wave blips on button clicks, tab switches, and node interactions.",
+    "toggle": "Global mute/unmute audio controller present in top navigation bar with visual soundwave indicator."
+  },
+  "instructions_to_main_agent": [
+    "Implement full single-page interactive application in React (JavaScript / JSX).",
+    "Ensure the Landing Screen features a staggered initialization boot log ('[ONLINE] Quantum Coherence Matrix... OK') with a glowing [ENTER MULTIVERSE] primary button.",
+    "In the Dashboard, render an interactive HTML5 Canvas or SVG node graph showing the MULTIVERSE CORE at center connected by pulsating particle lines to the 7 subsystem nodes.",
+    "State management: Maintain in-memory state connecting modules together (e.g., Room Amnesia confusion increases Brain Weather storm intensity and adds to Useless Statistics aggregate count).",
+    "Include live telemetry widgets with animated circular SVG meters and Recharts data streams for Reality Integrity and Nonsense Levels.",
+    "All interactive elements MUST include explicit data-testid attributes (e.g. data-testid='enter-multiverse-button', data-testid='node-brain-weather', data-testid='decision-input').",
+    "All buttons must have distinct hover states with glow and clear contrast.",
+    "Do NOT make external AI API calls; use rich, witty client-side template generators with randomized scientific metrics and humorous observations.",
+    "Add a global sound engine using Web Audio API to provide subtle UI blips and ambient background hum without requiring external assets."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "anti_slop_rule": "Avoid generic centered white cards and standard blue buttons. Use deep navy canvas, glowing 1px border cards, cyan tracking lines, editorial serif headings, and monospace statistics.",
+    "spacing_rule": "Use generous interior padding (p-6 to p-8) and backdrop blur (backdrop-blur-xl).",
+    "typography_rule": "Do not use Inter for main headings. Main headings must use 'Playfair Display' or 'Cormorant Garamond' editorial serifs with tight letter-spacing.",
+    "accessibility_and_contrast": "Ensure all text on hover explicitly sets readable text color. Buttons must have crisp focus indicators.",
+    "testability": "All buttons, inputs, tabs, node cards, and modal triggers MUST contain explicit data-testid attributes in kebab-case."
+  },
+  "image_urls": []
+}
